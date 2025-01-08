@@ -28,7 +28,7 @@
 // Define logo paths
 #let logo-left = "pictures/DHBW_MA_Logo.jpg"
 #let logo-right = "pictures/SAP_R_grad_scrn.jpg"
-#let title = "Wie kam es vom internationalen Saving glut zur Strukturierung von amerikanischen Hypotheken auf dem Sub-Prime Markt "
+#let title = "Wie kam es vom internationalen Saving glut zur Strukturierung von amerikanischen Hypotheken auf dem Sub-Prime Markt"
 #let nameAuthor = "Benjamin Will"
 
 // Define header and footer content
@@ -198,7 +198,7 @@
 #set text(hyphenate: true, lang: "de")
 
 = Eidesstattliche Erklärung
-#align(left, text("Ich versichere hiermit, dass ich meine Projektarbeit mit dem Thema: „Titel“ selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe. Ich versichere zudem, dass die eingereichte elektronische Fassung mit der gedruckten Fassung übereinstimmt."))
+#align(left, text("Ich versichere hiermit, dass ich mein Assignment mit dem Thema: „Wie kam es vom internationalen Saving glut zur Strukturierung von amerikanischen Hypotheken auf dem Sub-Prime Markt“ selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe."))
 
 // Space for the signature
 #v(5em)
@@ -231,11 +231,11 @@ In dieser Praxisarbeit wird aus Gründen der besseren Lesbarkeit das generische 
 // Disclaimer
 //-----------------------------------------------------------------------------------
 
-= Disclaimer
+//= Disclaimer
 // Disclaimer Content
-Ein Teil der Literatur, die für die Anfertigung dieser Arbeit genutzt wird, ist nur über die E-Book-Plattform o'Reilly abrufbar. Bei diesen Ressourcen existieren keine Seitennummern, es wird bei Verweisen stattdessen die Kapitelnummer angegeben.
-#v(1.5em)
-Um den Lesefluss zu verbessern, werden Abbildungen, Codebeispiele und Tabellen, die den Lesefluss stören, im Anhang platziert, auf den im Text zusätzlich verwiesen wird.
+//Ein Teil der Literatur, die für die Anfertigung dieser Arbeit genutzt wird, ist nur über die E-Book-Plattform o'Reilly abrufbar. Bei diesen Ressourcen existieren keine Seitennummern, es wird bei Verweisen stattdessen die Kapitelnummer angegeben.
+//#v(1.5em)
+//Um den Lesefluss zu verbessern, werden Abbildungen, Codebeispiele und Tabellen, die den Lesefluss stören, im Anhang platziert, auf den im Text zusätzlich verwiesen wird.
 
 //-----------------------------------------------------------------------------------
 //-----------------------------------------------------------------------------------
@@ -269,20 +269,14 @@ Um den Lesefluss zu verbessern, werden Abbildungen, Codebeispiele und Tabellen, 
     title: "Abbildungsverzeichnis",
     target: figure.where(kind: image)
   )
-#pagebreak()
-// Tabellenverzeichnis (List of Tables)
-  #outline(
-    title: "Tabellenverzeichnis",
-    target: figure.where(kind: table)
-  )
+
 
 
 #pagebreak()
 // Abkürzungsverzeichnis (List of Abbreviations)
 #print-acronyms(5em)
 
-// Variablenverzeichnis (List of Variables)
-#print-variables(5em)
+
 
 
 //-----------------------------------------------------------------------------------
@@ -308,20 +302,35 @@ Um den Lesefluss zu verbessern, werden Abbildungen, Codebeispiele und Tabellen, 
 #set math.equation(numbering: "(1)")
 
 = Einleitung
-Die Entstehung der Finanzkrise 2008 war das Ergebnis einer Reihe komplexer wirtschaftlicher und finanzieller Entwicklungen, die sich über Jahre hinweg aufgebaut hatten. Eine zentrale Rolle dabei spielte das Phänomen des internationalen "Saving Glut"
-== Internationales Saving Glut
-== Amerikanische Hypotheken
+Die Entstehung der Finanzkrise 2008 war das Ergebnis einer Reihe komplexer wirtschaftlicher und finanzieller Entwicklungen, die sich über Jahre hinweg aufgebaut hatten. Eine zentrale Rolle dabei spielte das Phänomen des internationalen "Saving Glut".
+= Saving Glut bis zur Strukturierung der Hypotheken 
+== Internationale Sparschwemme (International Saving Gluts)
+Der Begriff "Sparschwämme" oder auf Englisch "Saving Glut" bezieht sich auf eine wirtschaftliche Theorie, welche von Ben Bernanke, dem ehemaligen Vorsitzenden der Amerikanischen Notenbank (Federal Reserve System), populär gemacht wurde. Diese Theorie versucht zu erklären, warum es weltweit zu einem Überangebot an Ersparnissen kam, das wiederum Einfluss auf die Zinssätze und die globalen Finanzmärkte hatte.
+
+== Zusammenhang Saving Gluts und Subprime-Markt
+Die Saving Gluts und der Subprime-Markt sind stark voneinander abhängig, da die globalen Sparüberschüsse zu einer erhöhten Nachfrage nach Investitionen führten. Aufgrund der niedrigen Zinssätze und der großen Menge an verfügbaren Ersparnisse suchten Investoren nach höher verzinsten aber dadurch auch riskanteren Anlagen. Diese erhöhte Nachfrage nach Investitionen mit höheren Renditen heitzte ebenfalls den Markt für Subprime-Hypotheken an. 
 == Sub-Prime Markt
+Durch die niedrigen Zinsen in den USA kam es zu einer Nachfrage nach Immobilienfinanzierung. Gleichzeitig führten Kreditinstitute neue Variationen der Kreditvergabe ein. 
+#v(1.5em)
+
+=== Lockerung der Kreditvergabestandards (Subprime-Kredite)
+
+ Unter Subprime-Krediten versteht man nach A. Rapp, zitiert durch Schmidt und Deeken, Darlehen auf dem US-amerikanischen Hypothekenmarkt, welche an Schuldner unterhalt ("sub") der erstklassigen ("prime") Bonität vergeben werden #cite(<schmidt_deeken_2022>, supplement: "S.41"). Subprime-Kredite zeichnen sich hierbei durch eine geringe Kreditwürdigkeit und somit durch eine erhöhte Ausfallwahrscheinlichkeit der Schuldner und eine hohe Verzinsung aus #cite(<schmidt_deeken_2022>, supplement: "S.41").
+//Quelle
+
+=== Strukturierung von Hypothekenprodukten
+
+Finanzinstrumente wie Mortgage-Backed Securities (MBS) und Collateralized Debt Obligations (CDOs).
 
 
-= Kapitalflüsse zur Subprime-Krise 
-= Strukturierung von Hypotheken 
+
 
 
 = Schlussfolgerung
 
 
 = Fazit
+MBS und CDOs waren zentrale Akteure in der Finanzkrise 2007/2008. Durch die Verbriefung von minderwertigen Hypotheken (Subprime-Markt) und deren Verpackung in CDOs wurden Risiken unterschätzt. Die Ausfälle von Hypotheken führten zu erheblichen Verlusten bei Investoren, die in scheinbar sichere Produkte investiert hatten, was letztlich zu einer globalen Finanzkrise führte.
 // Fazit Text
 
 
