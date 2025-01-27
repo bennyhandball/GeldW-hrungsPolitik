@@ -303,31 +303,80 @@ In dieser Praxisarbeit wird aus Gründen der besseren Lesbarkeit das generische 
 
 = Einleitung
 Die Entstehung der Finanzkrise 2008 war das Ergebnis einer Reihe komplexer wirtschaftlicher und finanzieller Entwicklungen, die sich über Jahre hinweg aufgebaut hatten. Eine zentrale Rolle dabei spielte das Phänomen des internationalen "Saving Glut".
-= Saving Glut bis zur Strukturierung der Hypotheken 
-== Internationale Sparschwemme (International Saving Gluts)
-Der Begriff "Sparschwämme" oder auf Englisch "Saving Glut" bezieht sich auf eine wirtschaftliche Theorie, welche von Ben Bernanke, dem ehemaligen Vorsitzenden der Amerikanischen Notenbank (Federal Reserve System), populär gemacht wurde. Diese Theorie versucht zu erklären, warum es weltweit zu einem Überangebot an Ersparnissen kam, das wiederum Einfluss auf die Zinssätze und die globalen Finanzmärkte hatte.
+= Saving Glut  zur Strukturierung der Hypotheken 
+== Internationale Sparüberschüsse (Saving Gluts)
+Der Begriff „Internationale Sparüberschüsse“ (engl. „Saving Glut“) wurde von Ben Bernanke, dem ehemaligen Vorsitzenden der amerikanischen Notenbank (Federal Reserve System), vertreten, um ein weltweites Überangebot an Ersparnissen zu erklären, das Auswirkungen auf Zinssätze und die globalen Finanzmärkte hatte #cite(<speech_bernanke>). 
+#v(1.5em)
+Nach Bernanke kam es in den 2000er Jahren zu einem signifikanten Sparüberschuss in Ländern wie China, Japan, Deutschland und ölproduzierenden Staaten, die hohe Leistungsbilanzüberschüsse verzeichneten (@saving_glut). Im Gegensatz dazu wies die USA ein hohes Leistungsbilanzdefizit auf. Dieser Unterschied zwischen den Ländern, die mehr sparten als sie investierten, und den Ländern, die sich verschuldeten, führte zu einem Kapitalabfluss aus den „überschüssigen“ Ländern in Industrieländer wie die USA (@saving_glut).
+
+#figure(caption:
+[Einsparungen unterteilt in drei Weltregionen @asia_savings_glut ]
+, image(width: 10cm,
+"pictures/Saving-Rates_SavingGlut.png"
+))
+<saving_glut>
+#v(1.5em)
+Die Grafik veranschaulicht das Sparverhalten von drei Weltregionen als Anteil ihres regionalen BIP im Zeitraum von 1995 bis 2015. Man erkennt vor allem wie unterschiedliche Sparverhalten in verschiedenen Weltregionen zu Ansammlung von Kapitalüberschüssen und deren Umleitung in die USA beigetragen haben (@saving_glut).
+#v(1.5em)
+
+Die Ersparnisse flossen zunächst primär in sichere Finanzanlagen, insbesondere in US-Staatsanleihen, Wertpapiere und in den Hypothekenmarkt. Das Überangebot an Kapital in den USA führte zu sinkenden langfristigen Zinssätzen, was die Kreditkosten für Unternehmen und Haushalte senkte und nach Bernanke somit kurzfristig den Konsum und Investitionen anheizte, langfristig jedoch zu einer Verschärfung der finanziellen Instabilität beitrug #cite(<speech_bernanke>). Besonders der Immobilienmarkt profitierte von den niedrigen Zinssätzen, da der Zugang zu Hypotheken und Konsumkrediten erleichtert wurde. Dies begünstigte nicht nur Kreditnehmer mit hoher Bonität, sondern auch solche im Subprime-Bereich, die sonst Schwierigkeiten beim Erhalt von Krediten hatten.
+
+
+ 
+
+== Sub-Prime Markt
+
+== Lockerung der Kreditvergabestandards (Subprime-Kredite)
+
+ Unter Subprime-Krediten versteht man nach A. Rapp, zitiert durch Schmidt und Deeken, Darlehen auf dem US-amerikanischen Hypothekenmarkt, welche an Schuldner unterhalt ("sub") der erstklassigen ("prime") Bonität vergeben werden #cite(<schmidt_deeken_2022>, supplement: "S.41"). Subprime-Kredite zeichnen sich hierbei durch eine geringe Kreditwürdigkeit und somit durch eine erhöhte Ausfallwahrscheinlichkeit der Schuldner und eine hohe Verzinsung aus #cite(<schmidt_deeken_2022>, supplement: "S.41").
+ #v(1.5em)
+Durch die niedrigen Zinsen in den USA kam es zu einer Nachfrage nach Immobilienfinanzierung. Gleichzeitig führten Kreditinstitute neue Variationen der Kreditvergabe ein. 
+Finanzinstitute suchten nach Wegen, die hohe Nachfrage nach Investitionsmöglichkeiten zu bedienen, welche durch den Saving Glut entstanden war. Eine Lösung war die Vergabe von Hypotheken an Kreditnehmer mit geringerer Kreditwürdigkeit, da das niedrige Zinsumfeld eine breitere Kreditvergabe förderte.
+Banken und Finanzinstitute bündeltern diese Subprime-Hypotheken in Mortgage-Backed Securities (MBS) und verkauften diese an Investoren weltweit. Die Rating-Agenturen vergaben oft unrealistisch hohe Ratings für diese strukturierten Produkte, was sie für globale Investoren attraktiv machte. Die Investoren erhofften sich von den gebündelten Sub-prime Hypotheken hohe Renditen bei einem durch Finanzinstitute bewertetem Risko der Sub-Prime Hypotheken.
+
+
+== Strukturierung von Hypothekenprodukten
+ Die Bündelung von Hypotheken zu Mortage-Backed Securities (MBS) diente dazu, die Effizienz der Kapitalnutzung zu steigern, Risiken breiter zu streuen und die Kreditvergabe anzukurbeln. Banken konnten somit ihre Hypotheken aus ihrer Bilanz auslagern, um Kapital freizusetzen und zusätzliche Kredite vergeben zu können. Gleichzeitig bot die Verbriefung Investoren die Möglichkeit, in unterschiedliche Risikoklassen zu investieren, was in dem Niedrigzinsumfeld attraktiv war. Durch das Niedrigzinsumfeld waren die Renditen traditioneller sicherer Anlagen wie Staatsanleihen sehr gering, wohingegen Sub-prime Hypotheken und die daraus generierten 
+ Mortgage-Backed Securities (MBS) im Vergleich höhere Zinsen boten, da diese mit einem höheren Ausfallrisiko verbunden waren. Deshalb waren für Investoren die MBS attraktiv, da diese sich hohe Renditen erhofften.
+  Ein Problem stellten jedoch die mangelnde Bonitätsprofung und die Komplexität der Produkte dar, welche langfristig zur Finanzmarktinstabilität beitrugen.
+=== Mortage-Backed Securities (MBS)
+Mortage-Backed Securities (MBS) sind eine spezielle Art von Wertpapieren, welche durch einen Pool von Hypothekenkrediten besichert ist. Sie ermöglichen es Finanzinstituten, Hypotheken in handelbare Finanzprodukte umwandeln, die von Investoren gekauft werden können. Dabei vergeben Banken oder Kreditgeber Hypotheken beispielweise an Hauskäufer. Diese Kredite stellen die Grundlage für die Schaffung von (MBS) dar.
+#v(1.5em)
+#figure(caption:
+[ Bündelung von Sub-prime Hypotheken; eigene Darstellung  ]
+, image(width: 16cm,
+"pictures/Hypothekenbündelung_neu.png"
+))
+<Hypothekenbündelung>
+#v(1.5em)
+
+ Mehrere unterschiedliche Hypotheken werden zu einem Pool zusammengefasst, um das Risiko zu diversifizieren (@Hypothekenbündelung). Dabei enthält der Pool Hypotheken mit unterschiedlichen Bonitätniveaus. Der gerade beschriebene Hypothekenpool wird anschließend an eine Zwecksgesellschaft (Special Purpose Vehicle, SPV) verkauft. Diese SPV erstellt auf Basis des Pools handelbare Wertpapiere (MBS). 
+
+Die MBS werden durch Rating-Agenturen in Tranchen unterteilt, die unterschiedliche Risikoprofile aufweisen (@Risikoprofile).
+
+#figure(caption:
+[Risikoprofile der Mortage-Backed Securities; eigene Darstellung  ]
+, image(width: 14cm,
+"pictures/Ebay Anzeigendetails_Formular.png"
+))
+<Risikoprofile>
+#v(1.5em)
+
+Zahlungen aus dem Hypothekenpool fließen zuerst an die Senior Tranche und zuletzt in die Equity Tranche (@Risikoprofile). Die MBS werden an institutionelle und private Investoren verkauft. Diese erhalten regelmäßige Zahlungen basierend auf den Hypothekenzahlungen der Hauskäufer. 
+
+Die Rating Agenturen haben während der Zeit vor der Finanzkrise 2007/2008 Mortage-Backed Securities unrealistisch hoch bewertet. Viele MBS erhielten dabei von Rating-Agenturen hohe Ratings wie AAA (@Risikoprofile) was auf ein äußerst geringes Ausfallrisiko hinweist. In Wirklichkeit bestanden viele dieser MBS aus Sub-prime Krediten, also Kreditnehmern mit schlechter Bonität. Die Rating Agenturen wurden dabei von den Emittenten der MBS bezahlt, was zu einem Interessenskonflikt führte. Die Rating-Agenturen mussten die Risiken realistisch einschätzen, wollten jedoch ebenfalls weitere Aufträge der Emittenten erhalten. Zudem war es selbst für Rating-Agenturen oftmals extrem komplex das Risko der strukturierten Produkte einzuschätzen, da diese nicht nachvollziehen konnten, welche Risiken in den Produkten steckten.
+=== Collateralized Debt Obligations (CDO)
+Unter Collateralized Debt Obligations (CDO) versteht man nach ... komplexe Finanzinstrumente, die aus einem Pool von Schuldtiteln (z.B. Anleihen, Krediten oder anderen Forderungen) gebildet werden. Diese Schuldtitel werden, wie die MBS ebenfalls in verschiedene Tranchen unterteilt, die nach dem Risiko und der Rendite kategorisiert sind. Genauso wie die MBS wurden die CDOs entwickelt, um das Risiko zu diversifizieren und den Investoren unterschiedliche Reditemöglichkeiten zu bieten.
+
+Im Vergleich zu MBS sind CDOs komplexer und bündeln verschiedene Arten von Schuldtiteln, nicht nur Hypotheken. Dazu zählen beispielsweise Unternehmensanleihen, Hypothekendarlehen (MBS), Autokredite oder andere CDOs.
 
 == Zusammenhang Saving Gluts und Subprime-Markt
 Die Saving Gluts und der Subprime-Markt sind stark voneinander abhängig, da die globalen Sparüberschüsse zu einer erhöhten Nachfrage nach Investitionen führten. Aufgrund der niedrigen Zinssätze und der großen Menge an verfügbaren Ersparnisse suchten Investoren nach höher verzinsten aber dadurch auch riskanteren Anlagen. Diese erhöhte Nachfrage nach Investitionen mit höheren Renditen heitzte ebenfalls den Markt für Subprime-Hypotheken an. 
-== Sub-Prime Markt
-Durch die niedrigen Zinsen in den USA kam es zu einer Nachfrage nach Immobilienfinanzierung. Gleichzeitig führten Kreditinstitute neue Variationen der Kreditvergabe ein. 
-#v(1.5em)
-
-=== Lockerung der Kreditvergabestandards (Subprime-Kredite)
-
- Unter Subprime-Krediten versteht man nach A. Rapp, zitiert durch Schmidt und Deeken, Darlehen auf dem US-amerikanischen Hypothekenmarkt, welche an Schuldner unterhalt ("sub") der erstklassigen ("prime") Bonität vergeben werden #cite(<schmidt_deeken_2022>, supplement: "S.41"). Subprime-Kredite zeichnen sich hierbei durch eine geringe Kreditwürdigkeit und somit durch eine erhöhte Ausfallwahrscheinlichkeit der Schuldner und eine hohe Verzinsung aus #cite(<schmidt_deeken_2022>, supplement: "S.41").
-//Quelle
-
-=== Strukturierung von Hypothekenprodukten
-
-Finanzinstrumente wie Mortgage-Backed Securities (MBS) und Collateralized Debt Obligations (CDOs).
 
 
 
-
-
-= Schlussfolgerung
-
+= Zusammenfassung
+Der internationale Saving Glut sorgte für einen Zufluss von Kapital in den USA, was zu niedrigeren Zinsen und einer erhöhten Kreditvergabe führte. Dies schuf die Grundlage für die Expansion des Subprime-Markts, da günstige Finanzierungsbedingungen und die Suche nach renditestarken Investitionen die Strukturierung risikoreicher Hypotheken förderten. Dies trug letztlich zur Immobilienblase bei, deren Platzen die globale Finanzkrise von 2008 auslöste
 
 = Fazit
 MBS und CDOs waren zentrale Akteure in der Finanzkrise 2007/2008. Durch die Verbriefung von minderwertigen Hypotheken (Subprime-Markt) und deren Verpackung in CDOs wurden Risiken unterschätzt. Die Ausfälle von Hypotheken führten zu erheblichen Verlusten bei Investoren, die in scheinbar sichere Produkte investiert hatten, was letztlich zu einer globalen Finanzkrise führte.
