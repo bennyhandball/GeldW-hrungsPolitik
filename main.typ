@@ -332,14 +332,14 @@ Die Ersparnisse flossen zunächst primär in sichere Finanzanlagen, insbesondere
  #v(1.5em)
 Durch die niedrigen Zinsen in den USA kam es zu einer Nachfrage nach Immobilienfinanzierung. Gleichzeitig führten Kreditinstitute neue Variationen der Kreditvergabe ein. 
 Finanzinstitute suchten nach Wegen, die hohe Nachfrage nach Investitionsmöglichkeiten zu bedienen, welche durch den Saving Glut entstanden war. Eine Lösung war die Vergabe von Hypotheken an Kreditnehmer mit geringerer Kreditwürdigkeit, da das niedrige Zinsumfeld eine breitere Kreditvergabe förderte.
-Banken und Finanzinstitute bündeltern diese Subprime-Hypotheken in Mortgage-Backed Securities (MBS) und verkauften diese an Investoren weltweit. Die Rating-Agenturen vergaben oft unrealistisch hohe Ratings für diese strukturierten Produkte, was sie für globale Investoren attraktiv machte. Die Investoren erhofften sich von den gebündelten Sub-prime Hypotheken hohe Renditen bei einem durch Finanzinstitute bewertetem Risko der Sub-Prime Hypotheken.
+Banken und Finanzinstitute bündeltern diese Subprime-Hypotheken in Mortgage-Backed Securities ("MBS") und verkauften diese an Investoren weltweit. Die Rating-Agenturen vergaben oft unrealistisch hohe Ratings für diese strukturierten Produkte, was sie für globale Investoren attraktiv machte. Die Investoren erhofften sich von den gebündelten Sub-prime Hypotheken hohe Renditen bei einem durch Finanzinstitute bewertetem Risko der Sub-Prime Hypotheken.
 
 
 == Strukturierung von Hypothekenprodukten
  Die Bündelung von Hypotheken zu Mortage-Backed Securities (MBS) diente dazu, die Effizienz der Kapitalnutzung zu steigern, Risiken breiter zu streuen und die Kreditvergabe anzukurbeln. Banken konnten somit ihre Hypotheken aus ihrer Bilanz auslagern, um Kapital freizusetzen und zusätzliche Kredite vergeben zu können. Gleichzeitig bot die Verbriefung Investoren die Möglichkeit, in unterschiedliche Risikoklassen zu investieren, was in dem Niedrigzinsumfeld attraktiv war. Durch das Niedrigzinsumfeld waren die Renditen traditioneller sicherer Anlagen wie Staatsanleihen sehr gering, wohingegen Sub-prime Hypotheken und die daraus generierten 
  Mortgage-Backed Securities (MBS) im Vergleich höhere Zinsen boten, da diese mit einem höheren Ausfallrisiko verbunden waren. Deshalb waren für Investoren die MBS attraktiv, da diese sich hohe Renditen erhofften.
   Ein Problem stellten jedoch die mangelnde Bonitätsprofung und die Komplexität der Produkte dar, welche langfristig zur Finanzmarktinstabilität beitrugen.
-=== Mortage-Backed Securities (MBS)
+=== Mortage-Backed Securities 
 Mortage-Backed Securities (MBS) sind eine spezielle Art von Wertpapieren, welche durch einen Pool von Hypothekenkrediten besichert ist. Sie ermöglichen es Finanzinstituten, Hypotheken in handelbare Finanzprodukte umwandeln, die von Investoren gekauft werden können. Dabei vergeben Banken oder Kreditgeber Hypotheken beispielweise an Hauskäufer. Diese Kredite stellen die Grundlage für die Schaffung von (MBS) dar.
 #v(1.5em)
 #figure(caption:
@@ -365,13 +365,13 @@ Die MBS werden durch Rating-Agenturen in Tranchen unterteilt, die unterschiedlic
 Zahlungen aus dem Hypothekenpool fließen zuerst an die Senior Tranche und zuletzt in die Equity Tranche (@Risikoprofile). Die MBS werden an institutionelle und private Investoren verkauft. Diese erhalten regelmäßige Zahlungen basierend auf den Hypothekenzahlungen der Hauskäufer. 
 
 Die Rating Agenturen haben während der Zeit vor der Finanzkrise 2007/2008 Mortage-Backed Securities unrealistisch hoch bewertet. Viele MBS erhielten dabei von Rating-Agenturen hohe Ratings wie AAA (@Risikoprofile) was auf ein äußerst geringes Ausfallrisiko hinweist. In Wirklichkeit bestanden viele dieser MBS aus Sub-prime Krediten, also Kreditnehmern mit schlechter Bonität. Die Rating Agenturen wurden dabei von den Emittenten der MBS bezahlt, was zu einem Interessenskonflikt führte. Die Rating-Agenturen mussten die Risiken realistisch einschätzen, wollten jedoch ebenfalls weitere Aufträge der Emittenten erhalten. Zudem war es selbst für Rating-Agenturen oftmals extrem komplex das Risko der strukturierten Produkte einzuschätzen, da diese nicht nachvollziehen konnten, welche Risiken in den Produkten steckten.
-=== Collateralized Debt Obligations (CDO)
-Unter Collateralized Debt Obligations (CDO) versteht man nach ... komplexe Finanzinstrumente, die aus einem Pool von Schuldtiteln (z.B. Anleihen, Krediten oder anderen Forderungen) gebildet werden. Diese Schuldtitel werden, wie die MBS ebenfalls in verschiedene Tranchen unterteilt, die nach dem Risiko und der Rendite kategorisiert sind. Genauso wie die MBS wurden die CDOs entwickelt, um das Risiko zu diversifizieren und den Investoren unterschiedliche Reditemöglichkeiten zu bieten.
+=== Collateralized Debt Obligations 
+Unter ("CDO") versteht man nach ... komplexe Finanzinstrumente, die aus einem Pool von Schuldtiteln (z.B. Anleihen, Krediten oder anderen Forderungen) gebildet werden. Diese Schuldtitel werden, wie die ("MBS") ebenfalls in verschiedene Tranchen unterteilt, die nach dem Risiko und der Rendite kategorisiert sind. Genauso wie die ("MBS") wurden die ("CDO")s entwickelt, um das Risiko zu diversifizieren und den Investoren unterschiedliche Reditemöglichkeiten zu bieten.
 
-Im Vergleich zu MBS sind CDOs komplexer und bündeln verschiedene Arten von Schuldtiteln, nicht nur Hypotheken. Dazu zählen beispielsweise Unternehmensanleihen, Hypothekendarlehen (MBS), Autokredite oder andere CDOs.
+Im Vergleich zu ("MBS") sind ("CDO")s komplexer und bündeln verschiedene Arten von Schuldtiteln, nicht nur Hypotheken. Dazu zählen beispielsweise Unternehmensanleihen, Hypothekendarlehen ("MBS)", Autokredite oder andere ("CDO")s. Die eigentliche Funktionsweise der Bündelung der beiden Produkte ist jedoch sehr ähnlich. 
 
 == Zusammenhang Saving Gluts und Subprime-Markt
-Die Saving Gluts und der Subprime-Markt sind stark voneinander abhängig, da die globalen Sparüberschüsse zu einer erhöhten Nachfrage nach Investitionen führten. Aufgrund der niedrigen Zinssätze und der großen Menge an verfügbaren Ersparnisse suchten Investoren nach höher verzinsten aber dadurch auch riskanteren Anlagen. Diese erhöhte Nachfrage nach Investitionen mit höheren Renditen heitzte ebenfalls den Markt für Subprime-Hypotheken an. 
+Die Saving Gluts und der Subprime-Markt sind stark voneinander abhängig, da die globalen Sparüberschüsse zu einer erhöhten Nachfrage nach Investitionen führten. Aufgrund der niedrigen Zinssätze und der großen Menge an verfügbaren Ersparnisse suchten Investoren nach höher verzinsten aber dadurch auch riskanteren Anlagen. Diese erhöhte Nachfrage nach Investitionen mit höheren Renditen heitzte ebenfalls den Markt für Subprime-Hypotheken an. Dabei wurden riskante und qualitativ minderwertige Vermögenswerte so umstrukturiert, dass sie auf den Finanzmärkten wie hochwertige und rentable Anlagen erschienen. 
 
 
 
